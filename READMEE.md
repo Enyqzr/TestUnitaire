@@ -10,7 +10,7 @@ A quoi servent les tests ?
 
 Y a-t-il plusieurs types de tests ? Si oui quelle est leurs différence ? 
 
-- Oui, le tests unitaire pour le code, le tests de performance pour les perf et sûrement d'autre.
+- Oui, le tests unitaire pour une seule unité (ex : une fonction), le tests de performance pour les perf, tests fonctionnels tout un bloc (ex : une appli bancaire, virement, ajout a la base de données etc..), tests End To End (Ce que l'utilisateur va faire sur le site ou l'appli).
 
 Intuitivement, à quelles bonnes pratiques de conceptions de tests vous pouvez penser?
 
@@ -22,4 +22,6 @@ Intuitivement, à quelles bonnes pratiques de conceptions de tests vous pouvez p
 
 Définir ce qu'est le TDD et quels sont les avantages de cette pratique ? 
 
-- C'est une méthode de développement de logiciel visant a co,cevoir un logiciel par étapes très courte (petit pas).
+- C'est une méthode de développement de logiciel visant a concevoir un logiciel par étapes très courte (petit pas).
+- Avantage : en gros, réaliser le test ou les tests puis coder en focntion du résultat, ce qui nous oblige a bien penser a tout les cas d'usage, une production claire et lisible.
+- Incovénients : le temps.
